@@ -1,0 +1,19 @@
+html {
+  background-color: navy;
+}
+
+body {
+  background-color: orangered;
+}
+
+p {
+  font-size: medium;
+}
+
+.blog-post-title {
+  background-color: fuchsia;
+}
+
+#gold {
+  background-color: gold;
+}
