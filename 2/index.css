@@ -1,0 +1,21 @@
+.blog-post-header {
+  background-color: darkorange;
+  color: white;
+}
+
+.blog-post-content {
+  background-color: goldenrod;
+  color: white;
+}
+
+.blog-post-title {
+  font-family: Tahoma;
+}
+
+.blog-post-subtitle {
+  font-weight: 500;
+}
+
+#red {
+  color: red;
+}
