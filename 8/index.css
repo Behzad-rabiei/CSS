@@ -1,0 +1,29 @@
+.box-1{
+	width: 20em;
+	height: 10em;
+	background-color: blue;
+	margin: 0 auto;
+	border: .4em solid black;
+        box-sizing: border-box;
+
+}
+
+.box-2{
+	width: 20em;
+	height: 10em;
+	background-color: blue;
+	margin: 0 auto;
+	margin-top: 1em;
+}
+
+*{
+        box-sizing: border-box;
+
+}
+
+.note{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.2em;
+	padding:1em;
+}
