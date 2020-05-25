@@ -1,0 +1,43 @@
+.box-container-1{
+	display: flex;
+	align-text: center;
+	flex-wrap: wrap;
+}
+
+.box-container-1 div{
+	border: 2px solid black;
+}
+
+.box-container-1 p{
+	padding: 0.5em;
+}
+
+.box-1{
+	flex: 3;
+	order: 3;
+}
+
+.box-2{
+	flex: 2;
+	order: 2;
+}
+
+.box-3{
+	flex: 1;
+	order: 1;
+}
+
+
+.box-container-2{
+	flex: display;
+	flex-direction: column;
+}
+
+
+.box-container-2 div{
+	border: 2px solid black;
+}
+
+.box-containe-2 p{
+	padding: 0.5em;
+}
