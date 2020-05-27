@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+
+}
+
+h2{
+	margin:0
+}
+
+.navigation{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	border-bottom: 1px solid red;
+	box-sizing: border-box;
+	padding: 0.5em;
+
+}
+.navigation h2{
+	margin-left: 0.3em;
+}
+.ul-nav{
+	display: flex;
+	list-style-type: none;
+	margin-right: 35em;
+	text-decoration: none;
+
+
+}
+
+.ul-nav li{
+	margin: 0 2.5em 0 2.5em;
+	font-size: 1.2em;
+
+}
