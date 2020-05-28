@@ -34,3 +34,25 @@ h2{
 	font-size: 1.2em;
 
 }
+
+
+
+
+@media screen and (max-width:599px) {
+	.navigation{
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+
+	}
+	.navigation h2{
+		margin: 0;
+	}
+	.ul-nav{
+		flex-direction: column;
+		margin: 0;
+	}
+	.ul-nav li{
+		margin: 1em 0 1em 0;
+	}
+}
