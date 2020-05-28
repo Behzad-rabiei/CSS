@@ -45,22 +45,32 @@ body{
 
 
 .content-container{
-	
+	display: flex;
+	margin-top: 3em;
+	height: 20em;
 }
 
 .content-img{
+	flex:1;
+	margin: 0 1em 0 1em;
+	align-self: flex-start;
 
 }
 
-.contetn-p{
-
+.content-p{
+	flex:4;
+	font-size: 14px;
 }
 
 
 .content-box{
-
+	flex:1;
+	display: flex;
+	justify-content: center;
+	margin:0 0 0 1em;
+	border: 1px solid black;
 }
 
 .box-link{
-
+	margin:1em 0 0 0;
 }
