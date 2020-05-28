@@ -74,3 +74,23 @@ body{
 .box-link{
 	margin:1em 0 0 0;
 }
+
+.footer-container{
+	display:flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid black;
+}
+
+.footer-paragraph{
+	font-size: 0.8em;
+}
+
+.footer-input{
+}
+
+.footer-button{
+}
