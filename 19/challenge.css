@@ -50,21 +50,26 @@ body{
 	height: 20em;
 }
 
+.section-1{
+	flex: 3;
+	display: flex;
+	text-align: center;
+}
+
 .content-img{
-	flex:1;
 	margin: 0 1em 0 1em;
 	align-self: flex-start;
 
 }
 
-.content-p{
-	flex:4;
+.content-paragraph{
 	font-size: 14px;
+	line-height: 1.5em;
 }
 
 
 .content-box{
-	flex:1;
+	flex: 1;
 	display: flex;
 	justify-content: center;
 	margin:0 0 0 1em;
@@ -124,6 +129,10 @@ body{
 
 	.box-link{
 		margin: 0;
+	}
+	
+	.section-1{
+		flex-direction: column;
 	}
 }
 
