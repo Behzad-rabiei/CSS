@@ -1,0 +1,26 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1em;
+  /* SET HEIGHT */
+  /* grid-auto-rows: 100px; */
+  grid-auto-rows: minmax(100px,auto);
+}
+.container > div{
+  background-color: silver;
+}
+.container > div:nth-child(odd){
+  background-color: darkgoldenrod;
+}
+
+.nested{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1em;
+  grid-auto-rows: 70px;
+
+}
+.nested > div{
+  border: 1px solid black;
+  padding: 1em;
+}
