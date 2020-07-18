@@ -1,0 +1,52 @@
+@import 'variables';
+@import 'config';
+@import 'utilities';
+@import 'functions';
+@import 'buttons';
+
+
+.showcase{
+  height: 600px;
+  @include set-background($primary-color);
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul{
+      display:flex;
+      list-style-type: none;
+      li{
+        padding:15px;
+        a{
+          color:set-text-color($primary-color);
+        }
+        a:hover{
+          color:$secondary-color;
+        }
+      }
+    }
+  }
+}
+
+
+.showcase-content{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  height: 100%;
+
+  h1{
+    line-height: 1.2;
+    font-size: 50px;
+  }
+  // p{
+  //   margin:20px 0;
+  // }
+  img{
+    width: 50%;
+  }
+}
+
+
+@import 'mobile';
